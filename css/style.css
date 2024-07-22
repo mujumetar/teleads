@@ -125,13 +125,17 @@ form {
     margin: 10px 0px;
 }
 
-.login-btn {
+.login-btna {
     width: 100%;
-    padding: 10px 20px;
     background-color: #229ad4;
     color: white;
     border: none;
-    padding: 10px 0px;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
     transition: all 1s ease-in-out;
 }
 

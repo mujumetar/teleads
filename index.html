@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teleads | Signup</title>
-    <link rel="stylesheet" href="/css/signup.css" />
-    <link rel="stylesheet" href="/css/media.css" />
+    <title>Teleads | login</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" hreVf="/css/media.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -30,42 +30,49 @@
             <!-- <input type="checkbox" class="check"> -->
             <div class="nav" id="navbar">
                 <div class="nav-links">
-                    <a href="/html/index.html" class="anchor">Login</a>
+                    <a href="/index.html" class="anchor">Login</a>
                 </div>
                 <div class="nav-links">
-                    <a href="/html/signup.html" class="anchor">Sign-up</a>
+                    <a href="/signup.html" class="anchor">Sign-up</a>
                 </div>
                 <div class="nav-links">
-                    <a href="#" class="anchor"><i class="ri-customer-service-line"></i></i></a>
+                    <a href="#" class="anchor"><i
+                            class="ri-customer-service-line"></i></i></a>
                 </div>
             </div>
 
             <div class="menu">
-                <button class="menu-btn"><i class="ri-menu-line change"></i></button>
+                <button onclick="button()" class="menu-btn"><i class="ri-menu-line change"></i></button>
             </div>
         </div>
     </nav>
 
 
     <div class="container-xl main-login">
-       
-        <div class="respo-login"> 
+
+        <div class="respo-login">
             <div class="title-form">
-            <h2>Sign-up</h2>
-        </div>
+                <h2>Login</h2>
+            </div>
             <div class="login">
                 <form action="">
                     <input type="E-mail" placeholder="E-mail" class="form-spacings input" required>
-                    <input type="password" placeholder="Enter Password" class="form-spacings input"  required>
-                    <input type="password" placeholder="Confirm Your Password" class="form-spacings input"  required>
-                    <button class="login-btn" class="form-spacings" >Sign in</button>
+                    <input type="password" placeholder="Password" class="form-spacings input" required>
+
+
+
+                    <div class="forgot-psw user-help">
+                        <p><a href="#">Forgotten Your Password ?</a></p>
+                    </div>
+                    
+                    <a href="/dashboard.html" class="login-btna form-spacings">Login</a>
 
                     <div class="checkbox-main">
-                        <input type="checkbox" class="checkbox" required>
-                        <label for="checkbox" class="checkbox">&nbsp; I Accept All The Privacy & Policy</label>
+                        <input type="checkbox" class="checkbox">
+                        <label for="checkbox" class="checkbox">&nbsp;Remember Login Details</label>
                     </div>
                     <div class="forgot-psw user-help">
-                        <p><a href="/html/index.html">Already Have a Account ? Login</a></p>
+                        <p><a href="/html/signup.html">Create New Account</a></p>
                     </div>
                 </form>
             </div>
