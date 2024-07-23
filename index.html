@@ -7,6 +7,7 @@
     <title>Teleads | login</title>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" hreVf="/css/media.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,7 +19,6 @@
 
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
 
-    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 </head>
 
 <body>
@@ -36,8 +36,7 @@
                     <a href="/signup.html" class="anchor">Sign-up</a>
                 </div>
                 <div class="nav-links">
-                    <a href="#" class="anchor"><i
-                            class="ri-customer-service-line"></i></i></a>
+                    <a href="#" class="anchor"><i class="ri-customer-service-line"></i></i></a>
                 </div>
             </div>
 
@@ -48,7 +47,7 @@
     </nav>
 
 
-    <div class="container-xl main-login">
+    <div class="container-xl main-login project-lg w-sm w-s">
 
         <div class="respo-login">
             <div class="title-form">
@@ -64,7 +63,7 @@
                     <div class="forgot-psw user-help">
                         <p><a href="#">Forgotten Your Password ?</a></p>
                     </div>
-                    
+
                     <a href="/dashboard.html" class="login-btna form-spacings">Login</a>
 
                     <div class="checkbox-main">
@@ -72,12 +71,19 @@
                         <label for="checkbox" class="checkbox">&nbsp;Remember Login Details</label>
                     </div>
                     <div class="forgot-psw user-help">
-                        <p><a href="/html/signup.html">Create New Account</a></p>
+                        <p><a href="/signup.html">Create New Account</a></p>
                     </div>
                 </form>
             </div>
         </div>
     </div>
+
+
+    <script>
+        $(".menu").click(function () {
+            $(".nav").slideToggle(1200);
+        })
+    </script>
 </body>
 
 </html>

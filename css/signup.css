@@ -73,6 +73,14 @@ nav>h2 {
     display: none;
 }
 
+.menu-btn {
+    padding: 20px;
+    background-color:transparent;
+    border: none;
+    font-size: 25px;
+    color: white;
+}
+
 .main-login {
     width: 50%;
     position: absolute;
@@ -165,4 +173,85 @@ form {
     margin: 10px 0px;
 }
 
+
+
+
+
+/* Media queries of this page  */
+
+
+
+@media (max-width: 767px) {
+    .nav {
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        position: absolute;
+        top: 120px;
+        z-index: 2;
+        left: 0;
+        background-color: #229ad4;
+        width: 100%;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 10px;
+    }
+
+    .nav-links {
+        padding: 20px 20px;
+        width: 100%;
+    }
+
+    .menu {
+        display: block;
+    }
+
+
+
+    .gmap {
+        width: 100%;
+    }
+
+    .nav-links:hover {
+        background-color: #9da8ed;
+        border-radius: 10px;
+    }
+
+    .container {
+        align-items: center;
+        width: 100%;
+        margin: auto;
+    }
+
+    .form {
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 1199px) {
+    .w-lg {
+        width: 33.33%;
+    }
+
+    .project-lg {
+        width: 70%;
+    }
+}
+
+@media (max-width: 767px) {
+    .w-sm {
+        width: 50%;
+    }
+
+    .project-l {
+        width: 90%;
+    }
+}
+
+@media (max-width: 575px) {
+    .w-s {
+        width: 80%;
+        /* text-align: center; */
+    }
+}
 
